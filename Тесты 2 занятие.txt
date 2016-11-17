@@ -1,0 +1,146 @@
+0. Что выведет эта программа?
+	#include <stdiо.h>
+	int main(){
+		int а = 10;
+		int b = 15;
+		printf("\"%d\"",a*b);
+		return 0;
+	}
+	
+1. Что выведет эта программа?
+	#include <stdiо.h>
+	int main(){
+		int а = 10;
+		int b = 15;
+		b = a;
+		а = b;
+		printf("%d\n%d",а, b);
+		return 0;
+	}
+2. Что выведет эта программа?
+	#include <stdiо.h>
+	int main(){
+		int a = 10;
+		int b = 15;
+		printf("%f",b/а);
+		return 0;
+	}
+
+3. Что выведет эта программа?
+	#include <stdiо.h>
+	int main(){
+		int а = 10;
+		int b = 15;
+		printf("%f",b/a);
+		return 0;
+	}
+
+4. Что выведет эта программа?
+	#include <stdiо.h>
+	int main(){
+		int а = 5;
+		int b = 100;
+		a = b+10;
+		b = b*a;
+		if (a > b){
+			printf("a > b");
+		}else{
+			printf("a < b");
+		}
+		printf("\n\ngood");
+		return 0;
+	}
+	
+5. Что выведет эта программа?
+	#include <stdiо.h>
+	int main(){
+		int а = (5+4+5)*15*2+(10/2);
+		int b = 16*7+8-9*10;
+		if (a > b){
+			for(int i = 0; i < 10; i++){
+				printf("%d ", i);
+			}
+		}else{
+			for(int i = 10; i >= 0; i--){
+				printf("%d ", i);
+			}
+		}
+		return 0;
+	}	
+	
+6. Что выведет эта программа?
+	#include <stdiо.h>
+	int main(){
+	int sum = 0;
+		for(int i = 0; i < 100; i++){
+			sum = sum + i;
+		}
+		printf("%d",sum*sum);
+		return 0;
+	}	
+
+7. Что выведет эта программа?
+	#include <stdiо.h>
+	int main(){
+	float sum = 0;
+		int p = 3;
+		while(p <= 100){
+			p = 3*p;
+			printf("%d\n", p);
+		}
+		return 0;
+	}
+
+8. Напишите программу, которая будет объявлять 2 целочисленные 
+переменные и вывести их в степени 2
+
+9. Напишите программу, которая будет выводить значение а если a != b и 
+при обратном условии а == b выводить значение b (указать в комментарии значения 
+для обоих случаев)
+	
+10*. Напишите программу, которая будет по заданным a b c (ax*x+b*x+c) 
+вычислять дискриминант.
+Для реализации формулы корней уравнения использовать функцию sqrt(float)
+
+float 				sqrt			(float val );
+что возвращает		имя функции		 параметры функции
+
+пример использования float x = sqrt(4.0); // x == 2.0
+
+так описываются функции в справочниках по языкам
+
+11*. Что выведет эта программa? 
+int main(){
+	int q = 20;
+	int f = q*5; q = q/4;
+	int p = q*5;
+	if(q*q == p){
+		if(f/q == 20){
+			printf("a");
+		}
+		if(p > q){
+			printf("b");
+		}else if(f < p){
+			printf("c");
+		}
+	
+	}else if(q*p > f){
+		printf("d");
+	}
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
