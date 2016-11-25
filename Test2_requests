@@ -1,0 +1,82 @@
+0)	150
+1)	10, 10
+2)	1,5
+3)	1,5
+4)	a<b
+\n\ngood
+5)	0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+6)	24502500
+7)	9
+27
+81
+243	
+8)
+#include <stdiо.h>
+
+	int main(){
+
+		int а;
+
+		int b;
+
+		printf("%f",a*a);
+              printf("%f",b*b);
+		
+               return 0;
+
+	}
+
+
+9)
+
+#include <stdiо.h>
+
+	int main(){
+
+		int a;
+
+		int b;
+
+		if (a != b){
+
+			printf("%f",a);
+
+		}else{
+
+			printf("%f",b);
+
+}		
+
+
+		return 0;
+
+}
+
+10)
+
+
+#include <stdiо.h>
+
+	int main(){
+
+		int a = 10;
+
+		int b = 15;
+
+               int c = 5;
+   float x = 0;
+
+		if (b*b-4*a*c < 0){
+
+		printf("bad");
+
+
